@@ -15,7 +15,10 @@ The code was tested with Python 3.5. To use this code, please do:
  
 1. Install dependencies:
     ```Shell
+    # conda create -n deepgrabcut python=3.8
+    # install pytorch and cuda first.
     pip install -r requirements.txt
+    conda install opencv
     ```
   
 2. Download pretained automatically. Or manually from [GoogleDrive](https://drive.google.com/open?id=1N8bICHnFit6lLGvGwVu6bnDttyTk6wGH), and then put the model into `models`. 
